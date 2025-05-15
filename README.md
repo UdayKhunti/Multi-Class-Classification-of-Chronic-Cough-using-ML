@@ -35,7 +35,7 @@ This project presents an **AI-powered system** to classify the **severity of chr
 ## 🏗️ System Architecture
 
 ```plaintext
-Cough Audio + User Metadata
+ Cough Audio + User Metadata
          │
          ▼
 Feature Extraction (MFCCs, ZCR, etc.)
@@ -44,10 +44,10 @@ Feature Extraction (MFCCs, ZCR, etc.)
    Preprocessing & Scaling
          │
          ▼
-  ML Models (RF, CNN, HistGBM)
+     ML Model
          │
          ▼
-    Cough Severity Classification
+ Cough Severity Classification
 ````
 
 ## 📱 Companion App
@@ -67,16 +67,6 @@ An Android application has been developed to:
 * Telemedicine platforms
 * Resource-limited healthcare setups
 
-## 📂 Repository Structure
-
-```
-├── data/                # Audio samples and extracted features
-├── notebooks/           # Jupyter Notebooks for training & analysis
-├── models/              # Saved models and evaluation metrics
-├── app/                 # Android application source code
-├── report/              # Project report PDF and diagrams
-└── README.md
-```
 
 ## 👨‍💻 Authors
 
